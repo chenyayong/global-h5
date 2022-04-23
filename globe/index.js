@@ -36,8 +36,8 @@ export default {
             }
             return new Promise((resolve, reject) => {
                 uni.request({
-                    url: `${this.$serve}/${url}`,
-                    // url: `/${url}`,
+                    // url: `${this.$serve}/${url}`,
+                    url: `/${url}`,
                     method,
                     dataType: 'json',
                     timeout: 8000,
